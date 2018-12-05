@@ -1,3 +1,3 @@
 install ghostscript
 
-to run the puzzles:  `cd $NUM && gs $NUM.ps`
+to run the puzzles:  `cd day#/$NUM && gs $NUM.ps`
