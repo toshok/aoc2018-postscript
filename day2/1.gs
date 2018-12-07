@@ -1,7 +1,7 @@
 /counter2 0 def
 /counter3 0 def
 
-/src (1.data)(r)file def
+/src (2.data)(r)file def
 {
     /str 80 string def
     src str readline {

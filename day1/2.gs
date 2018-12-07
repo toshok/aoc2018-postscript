@@ -4,7 +4,7 @@
 
 seen 0 8 string cvs cvn true put
 
-/src (2.data)(r)file def
+/src (1.data)(r)file def
 {
     /str 80 string def
     src str readline {
@@ -29,6 +29,6 @@ seen 0 8 string cvs cvn true put
        pop
 
        % reinitialize src so we start reading from the file anew, with existing counter+seen
-       /src (2.data)(r)file store
+       /src (1.data)(r)file store
     } ifelse
 } loop
